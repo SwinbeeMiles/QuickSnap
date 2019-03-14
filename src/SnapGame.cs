@@ -17,6 +17,8 @@ namespace CardGames
 		/// Respond to the user input -- with requests affecting myGame
 		/// </summary>
 		/// <param name="myGame">The game object to update in response to events.</param>
+        /// 
+        // This is a test, if you see me, ignore me!
 		private static void HandleUserInput(Snap myGame)
 		{
 			//Fetch the next batch of UI interaction
