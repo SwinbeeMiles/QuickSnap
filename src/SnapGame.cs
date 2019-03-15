@@ -11,13 +11,12 @@ namespace CardGames
             Bitmap cards;
             cards = SwinGame.LoadBitmapNamed ("Cards", "Cards.png");
             SwinGame.BitmapSetCellDetails (cards, 82, 110, 13, 5, 53);      // set the cells in the bitmap to match the cards
-<<<<<<< HEAD
+
 			SwinGame.LoadSoundEffectNamed ("Slap1", "slap.wav");
 			SwinGame.LoadSoundEffectNamed ("Slap2", "slap2.wav");
 			SwinGame.LoadSoundEffectNamed ("Slap3", "slap3.wav");
-=======
+
 			SwinGame.LoadFontNamed ("GameFont", "Chunkfive.otf", 24);
->>>>>>> 484df53... changed font for score
         }
 
 		/// <summary>
