@@ -118,6 +118,8 @@ namespace CardGames.GameLogic
 				_gameTimer.Reset ();
 				FlipNextCard ();
 			}
+			//TODO: implement update to automatically slip cards!
+
 		}
 
 		/// <summary>
@@ -136,6 +138,8 @@ namespace CardGames.GameLogic
 		/// The player hit the top of the cards "snap"! :)
 		/// Check if the top two cards' ranks match.
 		/// </summary>
+		/// 
+		/// test
 		public void PlayerHit (int player)
 		{
 			//TODO: consider deducting score for miss hits???
