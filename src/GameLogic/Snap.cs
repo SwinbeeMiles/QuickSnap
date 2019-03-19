@@ -139,7 +139,6 @@ namespace CardGames.GameLogic
 		/// Check if the top two cards' ranks match.
 		/// </summary>
 		/// 
-		/// test
 		public void PlayerHit (int player)
 		{
 			//TODO: consider deducting score for miss hits???
